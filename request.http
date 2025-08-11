@@ -1,0 +1,13 @@
+POST https://laughing-space-happiness-vw9q6wrq57gc6659-3000.app.github.dev/auth/login
+Content-Type: application/json
+
+{
+    "username": "user1",
+    "password": "password1"
+}
+
+
+###
+
+GET https://laughing-space-happiness-vw9q6wrq57gc6659-3000.app.github.dev/protected
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjEsInVzZXJuYW1lIjoidXNlcjEiLCJpYXQiOjE3NTQ5MTg3NzAsImV4cCI6MTc1NDkyMjM3MH0._HqQdW0ueDM61BPH3JkpA_udvSAsTOKedu3dz7oIW7Q

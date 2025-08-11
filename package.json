@@ -1,0 +1,25 @@
+{
+  "name": "project2-express-auth",
+  "version": "1.0.0",
+  "description": "Basic token-based authentication",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trallan/project2-express-auth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trallan/project2-express-auth/issues"
+  },
+  "homepage": "https://github.com/trallan/project2-express-auth#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
